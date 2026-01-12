@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Primera pagina web</title>
+        <title>Primera página web</title>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex,nofollow">
     </head>
     <body>
-        <h1>Hola Mundo</h1>
-        <p>Mi primera pagina web</p>
-        <h2>Subtitulo</h2>
-        <p>Este es un ejemplo de una pagina web creada con HTML.</p>
+        <header>
+            <hgroup>
+                <h1>Mi primera página web</h1>
+                <h4>Aprendiendo HTML</h4>
+            </hgroup>
+        </header>
+        <h2>Subtítulo</h2>
+        <p>Este es un ejemplo de una página web creada con HTML.</p>
         <h3>Lista de elementos</h3>
         <ul>
             <li>Elemento 1</li>
@@ -17,15 +23,30 @@
         <h3>Enlace a otro sitio web</h3>
         <a href="https://www.youtube.com" target="_blank">Visitar Youtube</a>
         
-        <h4>Subtitulo h4</h4>
+        <h4>Audio de ejemplo</h4>
+        <audio controls>
+            <source src="archivosadicionales/no-crazy-war.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
 
-        <h5>Formulario de contacto</h5>
+        <h5>Pon tu nombre</h5>
+        <form>
         <input type="text" name="nombre" placeholder="Tu nombre">
             <input type="submit" value="Enviar">
+            <output name="saludo"></output>
+        </form>
 
         <p><b> Lorem ipsum dolor</b> sit amet, consectetur adipiscing elit. <br>
             Esto no tiene nada que ver</p>
-        <a href="pagina2.html"><b>Ir a la página 2 (Muy importante)</b></a>
-
+        <div style="background-color:rgb(214, 197, 127);">
+            <h4>Este es un contenedor div</h4>
+            <p>El contenedor div se utiliza para agrupar elementos y aplicar estilos.</p>
+        </div>
+            <a href="pagina2.html"><b>Ir a la página 2 (Muy importante)</b></a>
+        <br><br><br>
+        <img src="https://media.giphy.com/media/12ILM0sCNljd72/giphy.gif"> </img>
+        <footer>
+            <h6>Derechos reservados © 2025</h6>
+        </footer>
     </body>
 </html>
